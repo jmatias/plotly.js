@@ -78,6 +78,12 @@ module.exports = {
             'Sets the amount of vertical space (in px) between legend groups.'
         ].join(' ')
     },
+    tracetoggle: {
+        valType: 'boolean',
+        dflt: true,
+        role: 'info',
+        description: 'Enable toggle trace when legend is clicked.'
+    },
     x: {
         valType: 'number',
         min: -2,

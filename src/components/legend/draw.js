@@ -433,6 +433,7 @@ function drawTexts(g, gd) {
 }
 
 function setupTraceToggle(g, gd) {
+    if (!gd._fullLayout.legend.tracetoggle) return;
     var newMouseDownTime,
         numClicks = 1;
 
